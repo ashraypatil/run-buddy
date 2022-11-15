@@ -279,3 +279,17 @@ intro p {
 }
 
 /* REACH OUT STYLES END */
+.page-title {
+    color: #fce138;
+    display: inline-block;
+    border-bottom: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #fce138;
+    padding: 0px 80px 15px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
