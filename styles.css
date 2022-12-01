@@ -11,6 +11,7 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
 }
 header h1 {
     font-weight: bold;
@@ -21,57 +22,24 @@ header h1 {
 
 header a {
     color: #fce138;
-}
-header a {
     text-decoration: none;
-    color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul li {
-    display: inline;
+    display: flex;
 }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
+
 * {
     margin: 0;
     padding: 0;
-}
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
-header nav {
-    float: right;
-    margin: 7px 0;
-}
-header nav ul li {
-    display: inlin
-    e;
-}
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
 }
 footer {
     background: #fce138;
@@ -292,4 +260,7 @@ intro p {
     font-weight: normal;
     font-size: 42px;
     font-style: italic;
+}
+.hero-cta {
+    color: rgb(237, 79, 79);
 }
