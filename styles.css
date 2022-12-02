@@ -10,14 +10,30 @@ body {
 }
 
 /* apply styles to <header> */
-navbar {
-    display: flex;
-
-}
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
 }
 
 header h1 {
@@ -26,24 +42,7 @@ header h1 {
     color: #fce138;
     margin: 0;
 }
-header a {
-    text-decoration: none;
-    color: #fce138;
-}
-header nav {
-    margin: 7px 0;
-}
-header nav ul li {
-    display: flex;
-}
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
-
-/* apply styles to footer */
-
+/* footer styles */
 footer {
     background: #fce138;
     width: 100%;
