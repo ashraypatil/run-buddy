@@ -286,6 +286,7 @@ intro p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .contact h2 {
@@ -296,8 +297,9 @@ intro p {
 .contact-info iframe {
    
 }
-.contact-info span {
+.contact-info div {
     color: white;
+    
 }
 
 .contact-info h3 {
