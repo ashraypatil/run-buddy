@@ -160,7 +160,7 @@ intro p {
 .steps {
 
     background: #fce138;
-    padding-bottom: 3px;
+    padding-bottom: px;
     
 }
 
@@ -278,15 +278,16 @@ intro p {
 .contact {
     background: #024e76;
 }
-.contact-info>* {
-    flex: 1;
-    margin: 15px;
-}
+
 .contact-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
+}
+.contact-info>* {
+    flex: 1;
+    margin: 25px;
 }
 
 .contact h2 {
@@ -295,7 +296,7 @@ intro p {
 }
 
 .contact-info iframe {
-   
+   height: 400px;
 }
 .contact-info div {
     color: white;
